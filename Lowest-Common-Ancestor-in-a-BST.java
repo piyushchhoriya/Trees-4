@@ -18,8 +18,10 @@ Explanation: The LCA of nodes 2 and 8 is 6.
 //Iteratively
 // Time Complexity : O(h)
 //Space Complexity : O(1)
+
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        //base condition
         if(root==null){
             return root;
         }
